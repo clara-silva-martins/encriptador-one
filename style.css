@@ -1,0 +1,62 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos do cabeçalho */
+.cabecalho {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos do título principal */
+.principal__titulo {
+    margin-top: 0;
+}
+
+/* Estilos da seção de interação principal */
+.principal__interecao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+/* Estilos dos botões de criptografar/descriptografar */
+.principal__cripto,
+.principal__descripto {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Estilos da seção de resultados */
+.principal__resultados {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.imagem__resultados {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos do rodapé */
+.rodape {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
